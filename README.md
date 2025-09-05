@@ -2,6 +2,7 @@
 # SolanaMnemonic
 
 A simple utility for generating and working with **BIP39 mnemonics** for Solana wallets.
+Useful for creating and storing Solana wallets on any device.
 
 ## Overview
 
