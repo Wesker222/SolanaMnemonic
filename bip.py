@@ -21,3 +21,9 @@ if __name__ == "__main__":
     mnemonics = generate_bulk_mnemonics(num_phrases, words=12)
     save_mnemonics_to_file(mnemonics)
     print(f"{num_phrases} mnemonics saved to solana_mnemonics.txt")
+
+if __name__ == "__main__":
+    num_phrases = int(input("How many Solana mnemonics do you want to generate? "))
+    mnemonics = generate_bulk_mnemonics(num_phrases, words=12)
+    save_mnemonics_to_file(mnemonics)
+    print(f"{num_phrases} mnemonics saved to solana_mnemonics.txt")
